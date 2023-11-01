@@ -18,7 +18,7 @@
     "clasp:open": "clasp open"
   },
   "dependencies": {
-    "clasp": "^1.0.0"
+    "@google/clasp": "^2.4.2"
   },
   "devDependencies": {
     "@types/google-apps-script": "^1.0.76"
