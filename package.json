@@ -2,6 +2,7 @@
   "name": "life-game.gas",
   "version": "1.0.0",
   "description": "🪫🪫🪫 GASを使用してGoogleスプレッドシート上でライフゲームを実装してみる！",
+  "main": "./src/index.ts",
   "repository": "https://github.com/osawa-koki/life-game.gas.git",
   "author": "osawa-koki <koki@osawa.dev>",
   "license": "Apache-2.0",
