@@ -7,6 +7,19 @@
   "author": "osawa-koki <koki@osawa.dev>",
   "license": "Apache-2.0",
   "private": false,
+  "engines": {
+    "node": ">=20.00.0",
+    "yarn": ">=1.22.0"
+  },
+  "scripts": {
+    "clasp:login": "clasp login",
+    "clasp:push": "clasp push",
+    "clasp:pull": "clasp pull",
+    "clasp:open": "clasp open"
+  },
+  "dependencies": {
+    "clasp": "^1.0.0"
+  },
   "devDependencies": {
     "@types/google-apps-script": "^1.0.76"
   }
