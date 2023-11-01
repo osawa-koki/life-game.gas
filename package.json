@@ -12,13 +12,16 @@
     "yarn": ">=1.22.0"
   },
   "scripts": {
+    "build": "node ./build.js",
     "clasp:login": "clasp login",
     "clasp:push": "clasp push",
     "clasp:pull": "clasp pull",
     "clasp:open": "clasp open"
   },
   "dependencies": {
-    "@google/clasp": "^2.4.2"
+    "@google/clasp": "^2.4.2",
+    "esbuild": "^0.19.5",
+    "esbuild-gas-plugin": "^0.8.0"
   },
   "devDependencies": {
     "@types/google-apps-script": "^1.0.76"
