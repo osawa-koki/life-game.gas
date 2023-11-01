@@ -8,3 +8,6 @@ function lifeGame () {
   console.log('width', width)
   console.log('height', height)
 }
+
+declare let global: any
+global.handler = lifeGame

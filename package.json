@@ -7,12 +7,12 @@
   "author": "osawa-koki <koki@osawa.dev>",
   "license": "Apache-2.0",
   "private": false,
-  "type": "module",
   "engines": {
     "node": ">=20.00.0",
     "yarn": ">=1.22.0"
   },
   "scripts": {
+    "build": "node ./build.js",
     "clasp:login": "clasp login",
     "clasp:push": "clasp push",
     "clasp:pull": "clasp pull",
