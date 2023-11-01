@@ -19,11 +19,7 @@
     "clasp:open": "clasp open"
   },
   "dependencies": {
-    "@google/clasp": "^2.4.2",
-    "ts-loader": "^9.5.0",
-    "typescript": "^5.2.2",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "@google/clasp": "^2.4.2"
   },
   "devDependencies": {
     "@types/google-apps-script": "^1.0.76"
