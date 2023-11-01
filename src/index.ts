@@ -1,3 +1,5 @@
+import { cellSize, sheet } from "./const"
+import { setCanvasSize } from "./setCanvasSize"
 import Universe from "./universe"
 
 function lifeGame () {
@@ -5,8 +7,12 @@ function lifeGame () {
   const width = universe.width
   const height = universe.height
 
-  console.log('width', width)
-  console.log('height', height)
+  setCanvasSize({
+    sheet,
+    width,
+    height,
+    cellSize
+  })
 }
 
 declare let global: any
