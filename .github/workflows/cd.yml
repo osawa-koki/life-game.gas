@@ -26,5 +26,7 @@ jobs:
         run: yarn install --frozen-lockfile --non-interactive --production=false
       - name: Create clasprc.json
         run: echo $'${{ secrets.CLASP_RC_JSON }}' > ~/.clasprc.json
+      - name: Build
+        run: yarn build
       - name: Deploy
         run: yarn clasp:push
