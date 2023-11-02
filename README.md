@@ -2,6 +2,8 @@
 
 🪫🪫🪫 GASを使用してGoogleスプレッドシート上でライフゲームを実装してみる！  
 
+![成果物](./docs/images/fruit.gif)  
+
 ## 準備方法
 
 ### 1. Google Apps Script APIの有効化
