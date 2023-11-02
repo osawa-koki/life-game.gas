@@ -1,4 +1,4 @@
-import { universeHeight, universeWidth } from "./const"
+import { universeHeight, universeWidth } from './const'
 
 export default class Universe {
   width: number

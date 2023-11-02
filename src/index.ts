@@ -1,10 +1,10 @@
-import { aliveColor, cellSize, deadColor, waitTime } from "./const"
-import createSheet from "./createSheet"
-import drawCells from "./drawCells"
-import { setCanvasSize } from "./setCanvasSize"
-import Universe from "./universe"
+import { aliveColor, cellSize, deadColor, waitTime } from './const'
+import createSheet from './createSheet'
+import drawCells from './drawCells'
+import { setCanvasSize } from './setCanvasSize'
+import Universe from './universe'
 
-function lifeGame () {
+function lifeGame (): void {
   const universe = new Universe()
   const width = universe.width
   const height = universe.height
@@ -27,7 +27,7 @@ function lifeGame () {
       deadColor
     })
     SpreadsheetApp.flush()
-    Utilities.sleep(waitTime);
+    Utilities.sleep(waitTime)
   }
 }
 
