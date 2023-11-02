@@ -1,6 +1,6 @@
-import getSheetName from "./getSheetName"
+import getSheetName from './getSheetName'
 
-export default function createSheet(): GoogleAppsScript.Spreadsheet.Sheet {
+export default function createSheet (): GoogleAppsScript.Spreadsheet.Sheet {
   const activeSpreadSheet = SpreadsheetApp.getActiveSpreadsheet()
   const sheet = activeSpreadSheet.insertSheet()
   sheet.activate()

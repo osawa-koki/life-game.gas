@@ -1,5 +1,5 @@
-import getIndex from "./getIndex"
-import Universe from "./universe"
+import getIndex from './getIndex'
+import type Universe from './universe'
 
 interface Props {
   sheet: GoogleAppsScript.Spreadsheet.Sheet
