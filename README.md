@@ -15,7 +15,7 @@
 以下のコマンドでClaspをインストールします。  
 
 ```shell
-yarn global add clasp
+yarn global add @google/clasp
 ```
 
 ### 3. Claspのログイン
